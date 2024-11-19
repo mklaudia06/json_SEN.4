@@ -1,0 +1,51 @@
+{
+    "dia_anterior":{
+     "max_afect" : null,
+      "hora": null,
+      "zona_afectada": null,
+      "causa": null
+    },
+    "dia_de_hoy":{
+        "disponibilidad_mw" : "200",
+        "hora" : null,
+        "demanda_mw" : null,
+        "mw_afectados": null,
+        "afect_estimada_mw":null
+    },
+    "CTE_averias":[
+    {"CTE" : null,
+    "Unidad" : null}
+   ],
+    "CTE_mantenimiento":[
+    {"CTE":null,
+    "Unidad":null
+}
+    ],
+    "lim_generacion_termica_mw": null,
+    "centrales_generacion_distribuida":{
+        "fuera_servicio_combustible":null,
+        "total_faltante_mw":null
+    },
+    "se_estima":{
+        "recuperacion_mw":null,
+        "entrada_CTE":[
+        {"CTE":null,
+    "Unidad":null,
+    "mw":null}
+        ]
+    },
+    "pronostico_estimado":{
+        "hora":null,
+        "disponibilidad_mw":null,
+        "demanda_max_mw": null,
+        "deficit_mw": null,
+        "afectacion_mw":null
+    },
+    "clientes_con_servicio":[
+        {"lugar":"La Habana",
+    "porciento":"más del 56%"},
+    {"lugar":"Granma",
+    "porciento":"Más del 40%"}
+    ]
+}
+    

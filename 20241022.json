@@ -1,0 +1,105 @@
+{
+    "dia_anterior":{
+     "max_afect" : null,
+      "hora": null,
+      "zona_afectada": null,
+      "causa": null
+    },
+    "dia_de_hoy":{
+        "disponibilidad_mw" : null,
+        "hora" : null,
+        "demanda_mw" : null,
+        "mw_afectados": null,
+        "afect_estimada_mw":null
+    },
+    "CTE_averias":[
+    {
+        "CTE" : null,
+    "Unidad" : null
+}
+],
+    "CTE_mantenimiento":[
+    {
+        "CTE":null,
+    "Unidad":null
+}
+    ],
+    "lim_generacion_termica_mw": null,
+    "centrales_generacion_distribuida":{
+        "fuera_servicio_combustible":null,
+        "total_faltante_mw":null
+    },
+    "se_estima":{
+        "recuperacion_mw":null,
+        "entrada_CTE":[
+        {
+            "CTE":null,
+    "Unidad":null,
+    "mw":null
+}
+        ]
+    },
+    "pronostico_estimado":{
+        "hora":null,
+        "disponibilidad_mw":null,
+        "demanda_max_mw": null,
+        "deficit_mw": null,
+        "afectacion_mw":null
+    },
+    "clientes_con_servicio":[
+            {
+                "lugar":"Pinar del Río",
+        "porciento":"Más del 95 %"
+    },
+        {
+            "lugar":"Artemisa",
+        "porciento":"Pinar del Río"
+    },
+        {
+           "lugar":"La Habana",
+           "porciento": "Más del 95 %"
+        },
+        {
+            "lugar":"Mayabeque",
+            "porciento": "Más del 95 %"
+         },
+         {
+            "lugar":"Las Tunas",
+            "porciento": "Más del 95 %"
+         },
+         {
+            "lugar":"Holguin",
+            "porciento": "Más del 95 %"
+         },
+         {
+            "lugar":"Matanzas",
+            "porciento": "Entre el 40 y el 60 %"
+         },
+         {
+            "lugar":"Cienfuegos",
+            "porciento": "Entre el 40 y el 60 %"
+         },
+         {
+            "lugar":"Villa Clara",
+            "porciento": "Entre el 40 y el 60 %"
+         },
+         {
+            "lugar":"Sancti Spíritus",
+            "porciento": "Entre el 40 y el 60 %"
+         },
+         {
+            "lugar":"Ciego de Ávila",
+            "porciento": "Entre el 40 y el 60 %"
+         },
+         {
+            "lugar":"Camagüey",
+            "porciento": "Entre el 40 y el 60 %"
+         },
+         {
+            "lugar":"Granma",
+            "porciento": "Entre el 40 y el 60 %"
+         }
+        ]
+
+    }
+    

@@ -1,0 +1,79 @@
+{
+    "dia_anterior":{
+     "max_afect" : "986 MW",
+      "hora": "19:30",
+      "zona_afectada": "todo el pais",
+      "causa": "desconexion del sistema electrico nacional"
+    },
+    "dia_de_hoy":{
+        "disponibilidad_mw" : "1880 ",
+        "hora" : "07:00",
+        "demanda_mw" : "2100 ",
+        "mw_afectados": "310",
+        "afect_estimada_mw":"650"
+    },
+    "CTE_averias":[
+    {
+      "CTE" : "Mariel",
+      "Unidad" : 8
+},
+    {
+        "CTE":"Santa Cruz",
+        "Unidad": "1 y 3"
+},
+    {
+        "CTE":"Felton",
+        "Unidad":2
+}
+    ],
+    "CTE_mantenimiento":[
+    {
+        "CTE":"Santa Cruz",
+        "Unidad":2
+},
+    {
+        "CTE":"Renté",
+        "Unidad":5
+}
+    ],
+    "lim_generacion_termica_mw": 629,
+    "centrales_generacion_distribuida":{
+        "fuera_servicio_combustible":"24 centrales de generación distribuida",
+        "total_faltante_mw":95
+    },
+    "se_estima":{
+        "recuperacion_mw": null,
+        "entrada_CTE":[
+        {
+            "CTE":"Santa Cruz ",
+            "Unidad":3,
+            "mw":50
+        },
+        {
+            "CTE":"Energas Varadero",
+            "Unidad":3,
+            "mw":30
+        },
+        {
+            "CTE":"Energas Varadero",
+            "Unidad": 4,
+            "mw": 18
+        }
+        ]
+    },
+    "pronostico_estimado":{
+        "hora":"hora pico",
+        "disponibilidad_mw":1978,
+        "demanda_max_mw": 2950 ,
+        "deficit_mw":972 ,
+        "afectacion_mw": 1042
+    },
+    "clientes_con_servicio":[
+            {
+                "lugar":null,
+                "porciento":null
+            }
+        ]
+
+}
+    

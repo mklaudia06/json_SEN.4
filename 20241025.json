@@ -1,0 +1,83 @@
+{
+    "dia_anterior":{
+     "max_afect" : "879 MW",
+      "hora": "19:20",
+      "zona_afectada": "Guantánamo",
+      "causa": "paso de huracán."
+    },
+    "dia_de_hoy":{
+        "disponibilidad_mw" : 1937,
+        "hora" : "07:00 ",
+        "demanda_mw" : 2000,
+        "mw_afectados": 99 ,
+        "afect_estimada_mw": 400
+    },
+    "CTE_averias":[
+    {
+        "CTE" : "Santa Cruz",
+        "Unidad" : " 1 y 3"
+    },
+    {
+        "CTE":"Cienfuegos",
+        "Unidad": 3
+    },
+    {
+        "CTE":"Felton",
+        "Unidad":2
+    }
+    ],
+    "CTE_mantenimiento":[
+    {
+        "CTE":"Santa Cruz",
+        "Unidad": 2
+    },
+    {
+        "CTE":"Renté",
+        "Unidad":5
+    }
+    ],
+    "lim_generacion_termica_mw": 545,
+    "centrales_generacion_distribuida":{
+        "fuera_servicio_combustible":"35 centrales de generación distribuida",
+        "total_faltante_mw":191
+    },
+    "se_estima":{
+        "recuperacion_mw":null,
+        "entrada_CTE":[
+        {
+            "CTE":"Santa Cruz",
+             "Unidad":1,
+             "mw":75 
+            }
+        
+    ],
+    "entrada":[
+        {
+            "motores": 3,
+            "patana": "Melones",
+             "mw": 48
+            },
+
+    {
+        "motores":4,
+        "patana" : "CDE Mariel",
+        "mw":64
+    }
+    ]
+    },
+        
+"pronostico_estimado":{
+"hora":"hora pico",
+ "disponibilidad_mw":2124 ,
+ "demanda_max_mw": 3000,
+ "deficit_mw": 876,
+ "afectacion_mw": 946
+    },
+    "clientes_con_servicio":[
+            {
+                "lugar":null,
+            "porciento":null
+            }
+        ]
+    }
+    

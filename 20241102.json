@@ -1,0 +1,101 @@
+{
+    "dia_anterior":{
+     "max_afect" : "1430 MW",
+      "hora": "19:10",
+      "zona_afectada": "Guantánamo",
+      "causa": " paso de huracán"
+    },
+    "dia_de_hoy":{
+        "disponibilidad_mw" : 1695,
+        "hora" : "07:00",
+        "demanda_mw" : 2360 ,
+        "mw_afectados": 723 ,
+        "afect_estimada_mw":950
+    },
+    "CTE_averias":[
+    {
+        "CTE" : "Mariel",
+        "Unidad" : 5
+    },
+    {
+        "CTE":"Santa Cruz",
+        "Unidad": 3
+    },
+    {
+        "CTE":"Cienfuegos",
+        "Unidad": 4
+    },
+    {
+        "CTE":"Nuevitas ",
+        "Unidad": 5
+    },
+    {
+        "CTE":" Felton",
+        "Unidad": 2
+    }
+    ],
+    "CTE_mantenimiento":[
+    {
+        "CTE":" Santa Cruz",
+        "Unidad": 2
+    },
+    {
+        "CTE":"Cienfuegos",
+        "Unidad": 3
+    },
+    {
+        "CTE": " Felton",
+        "Unidad": 1
+    },
+    {
+        "CTE":"Renté",
+        "Unidad": 5
+    }
+    ],
+    "lim_generacion_termica_mw": 253 ,
+    "centrales_generacion_distribuida":{
+        "fuera_servicio_combustible":"62 centrales de generación distribuida",
+        "total_faltante_mw":383
+    },
+    "fuera_de_servicio":[
+    {
+        "motores": 4,
+        "en" :  "CDE Moa",
+        "mw": 50
+    },
+    {
+        "motores": 4,
+        "en" :  "la patana de Santiago de Cuba",
+        "mw": 64
+    }
+    ],
+    "se_estima":{
+        "recuperacion_mw": null,
+        "entrada_CTE":[
+        {
+            "CTE":"Santa Cruz",
+            "Unidad": 3,
+            "mw":50
+        }
+        ],
+        "entrada" : {
+            "motores": 4,
+            "CDE": "Moa",
+            "mw" : 50
+        }
+    },
+    "pronostico_estimado":{
+        "hora":"hora pico",
+        "disponibilidad_mw":1795,
+        "demanda_max_mw": 3100,
+        "deficit_mw": 1305 ,
+        "afectacion_mw":1375
+    },
+    "clientes_con_servicio":[
+            {
+                "lugar":null,
+            "porciento":null
+            }
+        ]
+    }
+    

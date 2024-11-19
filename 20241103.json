@@ -1,0 +1,88 @@
+{
+    "dia_anterior":{
+     "max_afect" : "1575 MW ",
+      "hora": "19:30",
+      "zona_afectada": "Guantánamo ",
+      "causa": "paso de huracán"
+    },
+    "dia_de_hoy":{
+        "disponibilidad_mw" : 1650,
+        "hora" : " 07:00 ",
+        "demanda_mw" : 2450,
+        "mw_afectados": 890,
+        "afect_estimada_mw":1100
+    },
+    "CTE_averias":[
+    {
+        "CTE" : "Mariel",
+        "Unidad" : 5
+    },
+    {
+        "CTE":"Santa Cruz",
+        "Unidad": 3
+    },
+    {
+        "CTE":"Cienfuegos",
+        "Unidad": 4
+    },
+    {
+        "CTE":"Nuevitas ",
+        "Unidad": 5
+    },
+    {
+        "CTE":"Felton",
+        "Unidad": 2
+    }
+    ],
+    "CTE_mantenimiento":[
+    {
+        "CTE":"Santa Cruz",
+        "Unidad": 2
+    },
+    {
+        "CTE":"Cienfuegos",
+        "Unidad": 3
+    },
+    {
+        "CTE":"Felton",
+        "Unidad": 1
+    },
+    {
+        "CTE":"Renté",
+        "Unidad": 5
+    }
+    ],
+    "lim_generacion_termica_mw": 314 ,
+    "fuera_servicio_patana" : {
+        "patana": "Santiago de Cuba",
+        "motores" : 5
+    },
+    "centrales_generacion_distribuida":{
+        "fuera_servicio_combustible":"78 centrales de generación distribuida",
+        "total_faltante_mw":"427"
+    },
+    "se_estima":{
+        "recuperacion_mw":"100 MW en motores de generación distribuida ",
+        "entrada_CTE":[
+        {
+            "CTE":"Santa Cruz ",
+           "Unidad": 3,
+             "mw": 50
+            }
+        ]
+    },
+    "pronostico_estimado":{
+        "hora":"hora pico",
+        "disponibilidad_mw":1800,
+        "demanda_max_mw": 3150,
+        "deficit_mw":1350 ,
+        "afectacion_mw":1420
+    },
+    "clientes_con_servicio":[
+            {
+                "lugar":null,
+            "porciento":null
+            }
+        ]
+    }
+    

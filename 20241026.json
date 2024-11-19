@@ -1,0 +1,76 @@
+{
+    "dia_anterior":{
+     "max_afect" : "1007 MW",
+      "hora": "19:40",
+      "zona_afectada": "Guantánamo",
+      "causa": "paso de huracán"
+    },
+    "dia_de_hoy":{
+        "disponibilidad_mw" : 1920 ,
+        "hora" : "07:00 ",
+        "demanda_mw" : 2100,
+        "mw_afectados": 265 ,
+        "afect_estimada_mw": 550 
+    },
+    "CTE_averias":[
+    {
+        "CTE" : "Santa Cruz,",
+        "Unidad" : 3
+    },
+    {
+        "CTE":"Cienfuegos",
+        "Unidad": 3
+    },
+    {
+        "CTE":"Rente",
+        "Unidad": 6
+    },
+    {
+        "CTE": "Felton",
+        "Unidad": 2
+    }
+    ],
+    "CTE_mantenimiento":[
+    {
+        "CTE":"Santa Cruz",
+        "Unidad": 2
+    },
+    {
+        "CTE":"Renté",
+        "Unidad": 5
+    }
+    ],
+    "lim_generacion_termica_mw": 498,
+    "centrales_generacion_distribuida":{
+        "fuera_servicio_combustible":"57 centrales de generación distribuida",
+        "total_faltante_mw":409
+    },
+    "se_estima":{
+        "recuperacion_mw": 80,
+        "entrada_CTE":
+        {
+            "CTE":"Rente",
+           "Unidad": 6,
+           "mw":50
+        },
+    "entrada": {
+        "de": " Energas Jaruco",
+        "Unidad" : 4,
+        "MW" : 30
+    }
+    },
+    "pronostico_estimado":{
+        "hora":"hora pico",
+        "disponibilidad_mw":2080,
+        "demanda_max_mw": 2980,
+        "deficit_mw": 900,
+        "afectacion_mw":970 
+    },
+    "clientes_con_servicio":[
+            {
+                "lugar":null,
+            "porciento":null
+            }
+        ]
+    }
+    
